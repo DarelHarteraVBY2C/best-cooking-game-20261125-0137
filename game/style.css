@@ -1,0 +1,26 @@
+* { box-sizing: border-box; }
+html, body { margin: 0; padding: 0; background: #2b1d12; }
+body {
+  font-family: "Trebuchet MS", Verdana, sans-serif;
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+#stage { width: min(1280px, 100vw); padding: 8px; }
+#game {
+  display: block;
+  width: 100%;
+  height: auto;
+  border-radius: 12px;
+  box-shadow: 0 10px 40px rgba(0, 0, 0, .55);
+  cursor: pointer;
+  background: #f7d9a0;
+}
+#hint {
+  color: #f3e2c7;
+  font-size: 13px;
+  line-height: 1.5;
+  text-align: center;
+  margin: 10px 4px 0;
+}
